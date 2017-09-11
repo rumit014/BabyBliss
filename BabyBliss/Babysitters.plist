@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Babysitters.plist
+   BabyBliss
+
+   Created by Rumit Singh Tuteja on 4/23/17.
+   Copyright (c) 2017 Rumit Singh Tuteja. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Babysitters</key>
+        <array>
+            <dict>
+                <!-->
+                 self.strName = dict[@"name"];
+                 self.strBio = dict[@"bio"];
+                 self.strLocation = dict[@"location"];
+                 self.strSchedule = dict[@"schedule"];
+                 self.strEmailId = dict[@"id"];
+                 self.experience = [dict[@"numberOdChildren"] integerValue];
+                 self.strPriceCap = dict[@"priceCap"];
+                 self.arrRequests = dict[@"requests"];
+                 self.arrFeedbacks = dict[@"feedbacks"];
+                 <-->
+                <key>name</key><string>Bob Smith</string>
+                <key>bio</key><string>I love cildren, have 2 sons, and I love spending time with them.</string>
+                <key>schedule</key><string>From Tuesday, April 25, 2017, 18:00 to Tuesday, April 25, 2017, 21:00</string>
+                <key>location</key><string>New York</string>
+                <key>id</key><string>bob@gmail.com</string>
+                <key>priceCap</key><string>20</string>
+                <key>experience</key><string>4</string>
+                <key>requests</key><array></array> <!-->request IDs<-->
+                <key>feedbacks</key><array></array> <!-->feedback IDs<-->
+            </dict>
+            <dict>
+                <key>name</key><string>Robert Brown</string>
+                <key>bio</key><string>Experience of 4 years in babysitting, CRP certified.</string>
+                <key>schedule</key><string>From Tuesday, April 24, 2017, 18:00 to Tuesday, April 24, 2017, 21:00</string>
+                <key>location</key><string>Charlotte</string>
+                <key>id</key><string>robert@gmail.com</string>
+                <key>priceCap</key><string>25</string>
+                <key>experience</key><string>5</string>
+                <key>requests</key><array></array> <!-->request IDs<-->
+                <key>feedbacks</key><array></array> <!-->feedback IDs<-->
+            </dict>
+            <dict>
+                <key>name</key><string>David Murray</string>
+                <key>bio</key><string>I love to be around kids, babysitting for me is a passion.</string>
+                <key>schedule</key><string>From Tuesday, April 24, 2017, 18:00 to Tuesday, April 24, 2017, 21:00</string>
+                <key>location</key><string>Greensboro</string>
+                <key>id</key><string>david@gmail.com</string>
+                <key>priceCap</key><string>15</string>
+                <key>experience</key><string>3</string>
+                <key>requests</key><array></array> <!-->request IDs<-->
+                <key>feedbacks</key><array></array> <!-->feedback IDs<-->
+            </dict>
+            <dict>
+                <key>name</key><string>Alex Smith</string>
+                <key>bio</key><string>Please contact me for reliable and professional babysitting. I've my own manifesto for babysitting.</string>
+                <key>schedule</key><string>From Tuesday, April 24, 2017, 18:00 to Tuesday, April 24, 2017, 21:00</string>
+                <key>location</key><string>Chicago</string>
+                <key>id</key><string>alex@gmail.com</string>
+                <key>priceCap</key><string>20</string>
+                <key>experience</key><string>2</string>
+                <key>requests</key><array></array> <!-->request IDs<-->
+                <key>feedbacks</key><array></array> <!-->feedback IDs<-->
+            </dict>
+            <dict>
+                <key>name</key><string>Srinivas Iyer</string>
+                <key>bio</key><string>I started with babysitting for my cousins, now Im a thorough professional.</string>
+                <key>schedule</key><string>From Tuesday, April 25, 2017, 18:00 to Tuesday, April 25, 2017, 21:00</string>
+                <key>location</key><string>New York</string>
+                <key>id</key><string>srini@gmail.com</string>
+                <key>priceCap</key><string>20</string>
+                <key>experience</key><string>6</string>
+                <key>requests</key><array></array> <!-->request IDs<-->
+                <key>feedbacks</key><array></array> <!-->feedback IDs<-->
+            </dict>
+        </array>
+    </dict>
+</plist>
