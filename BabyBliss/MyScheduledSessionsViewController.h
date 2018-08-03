@@ -10,5 +10,4 @@
 
 @interface MyScheduledSessionsViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *lblNoData;
-// change for the new branch, this line.
 @end
