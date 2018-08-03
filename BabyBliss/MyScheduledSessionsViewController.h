@@ -10,5 +10,5 @@
 
 @interface MyScheduledSessionsViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *lblNoData;
-// new comments
+// new comments, remove this
 @end
